@@ -16,9 +16,9 @@
             <span class="txt_bar">|</span>
             <a href="#!" class="link_site">운영 정책</a>
             <span class="txt_bar">|</span>
-            <a href="#!" class="link_site" target="_blank">고객센터</a>
+            <a href="#!" class="link_site">고객센터</a>
             <span class="txt_bar">|</span>
-            <a href="#!" class="link_site" target="_blank">공지사항</a>
+            <a href="#!" class="link_site">공지사항</a>
           </div>
         </div>
       </div>
