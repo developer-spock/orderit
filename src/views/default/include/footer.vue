@@ -46,8 +46,6 @@ export default {
 </script>
 
 <style lang="scss" scope>
-@import '~@/assets/scss/mixins/responsive';
-
 .footer { 
   background-color: #000;
 }

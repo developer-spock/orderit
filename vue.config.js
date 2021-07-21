@@ -12,5 +12,14 @@ module.exports = {
         options.fallback.options.name = "img/[name].[ext]"
         return options
       })
+    },
+    css : {
+      loaderOptions : {
+        sass : {
+          additionalData: `
+            @import "@/assets/scss/mixins/mixins.scss";
+          `
+        }
+      }
     }
   }

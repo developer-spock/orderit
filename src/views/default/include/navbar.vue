@@ -4,7 +4,6 @@
       <a class="navbar-item" href="#!">
         <img src="@/assets/images/orderit_code_title.png" height="25">
       </a>
-      {{logo}}
 
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>

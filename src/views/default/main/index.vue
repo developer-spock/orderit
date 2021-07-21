@@ -22,8 +22,6 @@ export default {
 </script>
 
 <style lang="scss" scope>
-@import '~@/assets/scss/mixins/responsive';
-
 html, body {
   height: 100%;
   background-color: #000;

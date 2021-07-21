@@ -31,8 +31,6 @@ export default {
 </script>
 
 <style lang="scss" scope>
-@import '~@/assets/scss/mixins/responsive';
-
 svg {
   width: 100%;
   height: 300px;
