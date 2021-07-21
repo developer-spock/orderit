@@ -2,7 +2,7 @@
   <nav class="navbar is-black" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="#!">
-        <img src="~@/assets/images/orderit_title.png" height="25">
+        <img :src="process.env.BASE_URL+'/assets/images/orderit_title.png'" height="25">
       </a>
 
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
