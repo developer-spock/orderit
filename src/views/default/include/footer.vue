@@ -5,7 +5,7 @@
  4. 작성일        : 2020.01.17
 ****************************************************************************************************** -->
 <template>
-  <div class="footer">
+  <div>
     <div class="inner_foot">
       <div class="area_familysite">
         <div class="opt_relation">
