@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@aacassandra/vue3-progressbar": "^1.0.3",
+    "animejs": "^3.2.1",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "lodash": "^4.17.21",

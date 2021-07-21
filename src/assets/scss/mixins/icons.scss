@@ -1,0 +1,24 @@
+/* ================================================================== */
+/* Name	   : Mixins__icons
+/* Script  : framework icons,  
+/* Author  : P&P - PHS
+/* Date	   : 2019. 10. 21
+/* Version : v 0.1
+/* ================================================================== */
+
+@mixin iconFramework($filename, $width, $height: $width) {
+  content: "";
+  display: inline-block;
+  width: $width;
+  height: $height;
+  margin-right: 1.2em;
+  vertical-align: middle;
+  background: {
+    image: url($filename);
+    size: cover;
+    position: 0 0;
+    repeat: no-repeat;
+  }
+}
+
+

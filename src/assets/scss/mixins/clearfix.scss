@@ -1,0 +1,19 @@
+/* ================================================================== */
+/* Name	   : Mixins__clearfix
+/* Script  : Clearfix  
+/* Author  : P&P - PHS
+/* Date	   : 2019. 11. 04
+/* Version : v 0.1
+/* ================================================================== */
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    display: table; // 2
+    content: " "; // 1
+  }
+  &:after {
+    clear: both;
+  }
+}
+

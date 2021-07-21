@@ -1,0 +1,13 @@
+/* ================================================================== */
+/* Name	   : Mixins__opacity
+/* Script  : Opacity  
+/* Author  : P&P - PHS
+/* Date	   : 2019. 11. 04
+/* Version : v 0.1
+/* ================================================================== */
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity = $opacity-ie); //ie8
+}

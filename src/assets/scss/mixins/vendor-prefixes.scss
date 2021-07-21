@@ -1,0 +1,16 @@
+/* ================================================================== */
+/* Name	   : Mixins__Vendor prefix
+/* Script  : Vendor prefix
+/* Author  : P&P - PHS
+/* Date	   : 2019. 09. 26
+/* Version : v 0.1
+/* ================================================================== */
+
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+ 
+  #{$property}: $value;
+}
+
