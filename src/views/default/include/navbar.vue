@@ -2,7 +2,7 @@
   <nav class="navbar is-black" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="#!">
-        <img src="@/assets/images/orderit_title.png" height="25">
+        <img src="@/assets/images/orderit_code_title.png" height="25">
       </a>
       {{logo}}
 
