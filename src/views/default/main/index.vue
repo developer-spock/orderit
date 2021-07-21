@@ -52,7 +52,7 @@ footer {
   width: 100%;
   // min-width: 964px;
   padding: 5px 32px;
-  background-color: #1a1a1c;
+  background-color: #000;
   box-sizing: border-box;
 
   @include respond-below(small) {
