@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
         <a class="navbar-item" href="https://bulma.io">
-          <img src="@/assets/images/orderit_title.png" height="25">
+          <img src="~@/assets/images/orderit_title.png" height="25">
         </a>
       </a>
 
