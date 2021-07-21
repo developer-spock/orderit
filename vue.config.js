@@ -1,6 +1,6 @@
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production' ? '/orderit/' : '/',
-    outputDir: "./dist",
+    outputDir: "./docs",
     indexPath: "index.html",
     filenameHashing: false,
     chainWebpack: config => {
