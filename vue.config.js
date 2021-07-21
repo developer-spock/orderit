@@ -17,5 +17,6 @@ module.exports = {
         options.fallback.options.name = "img/[name].[ext]"
         return options
       })
+      config.output.chunkFilename("[id].js")
     }
   }
