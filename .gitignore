@@ -10,7 +10,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+# dist/
 downloads/
 eggs/
 .eggs/
@@ -134,7 +134,7 @@ dmypy.json
 
 .DS_Store
 node_modules/
-/dist/
+# /dist/
 
 # local env files
 .env.local
