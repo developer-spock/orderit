@@ -18,7 +18,8 @@ export default {
   components: {
   },
   mounted: function() {
-    this.$Progress.finish();
+    this.$Progress.finish();  
+    this.$router.push({ name: 'main' });
   },
   created() {
     //  [App.vue specific] When App.vue is first loaded start the progress bar
