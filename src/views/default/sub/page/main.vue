@@ -6,7 +6,7 @@
         <div class="level-item">
           <div class="content">
             <h6 class="label-text">요구사항 중심의 IT서비스</h6>
-            <h4 class="headline">쉽고 즐거운 IT세상,<br/>IT를 주문하다 '오더릿'</h4>
+            <h4 class="headline">쉽고 즐거운 IT세상,<br/>IT를 주문하다 <span>'오더릿'</span></h4>
             <h5 class="period">불필요한 기능만 많은 솔루션 사용은 그만,<br/>꼭 필요한 기능만 원하는대로 만들어 보세요</h5>
             <button class="button is-warning">시작하기</button>
           </div>
@@ -294,7 +294,7 @@ svg {
   width: 100%;
   height: 400px;
 
-  .st0{fill:#FDD000;}
+  .st0{fill:#fdd000;}
   .st1{fill:#007FC7;}
   .st2{fill:#D4E5EB;}
 }
@@ -327,6 +327,10 @@ svg {
     transition-property: all;
     transition-timing-function: ease-in-out;
     display: inline;
+
+    span {
+      color: #fdd000;
+    }
   }
 
   .period {
