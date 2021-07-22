@@ -7,7 +7,7 @@
           <div class="content">
             <h6 class="label-text">요구사항 중심의 IT서비스</h6>
             <h4 class="headline">쉽고 즐거운 IT세상,<br/>IT를 주문하다 <span>'오더릿'</span></h4>
-            <h5 class="period">불필요한 기능만 많은 솔루션 사용은 그만,<br/>꼭 필요한 기능만 원하는대로 만들어 보세요</h5>
+            <h5 class="period">불필요한 기능만 많은 솔루션 사용은 그만,<br/>필요한 기능만 원하는대로 만들어 보세요</h5>
             <button class="button is-warning">시작하기</button>
           </div>
         </div>
