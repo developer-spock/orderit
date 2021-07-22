@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="main-header has-background-dark">
+    <div class="main-header has-background-black">
       <!-- Main container -->
       <nav class="level">
         <div class="level-item">
