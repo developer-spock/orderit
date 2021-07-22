@@ -13,12 +13,6 @@
             <a href="#!" class="link_site">오더릿 이용약관</a>
             <span class="txt_bar">|</span>
             <a href="#!" class="link_site">개인정보 처리방침</a>
-            <span class="txt_bar">|</span>
-            <a href="#!" class="link_site">운영 정책</a>
-            <span class="txt_bar">|</span>
-            <a href="#!" class="link_site">고객센터</a>
-            <span class="txt_bar">|</span>
-            <a href="#!" class="link_site">공지사항</a>
           </div>
         </div>
       </div>
