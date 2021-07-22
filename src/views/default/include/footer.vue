@@ -46,10 +46,6 @@ export default {
 </script>
 
 <style lang="scss" scope>
-.footer { 
-  background-color: #000;
-}
-
 .inner_foot {
   position: relative;
   min-height: 40px;

@@ -1,10 +1,16 @@
 <template>
-  <Navbar />
-  <div class="main">
-    <router-view />
+  <div class="layout">
+    <div class="layout-header">
+      <Navbar class="layout-header"/>
+    </div>
+    <div class="layout-main">
+      <router-view class="main"/>
+    </div>
+    <div class="layout-footer">
+      <Footer />
+    </div>
+    <TopButton :default-bottom-position="32" :footer-height="52" />
   </div>
-  <footer><Footer /></footer>
-  <TopButton :default-bottom-position="32" :footer-height="52" />
 </template>
 
 <script>
@@ -24,39 +30,73 @@ export default {
 <style lang="scss" scope>
 html, body {
   height: 100%;
-  background-color: #000;
 }
 
-.main {
+.layout {
   position: relative;
   min-height: 100%;
-  box-sizing: border-box;  
-  overflow-x: auto;
+  background-color: #f7f8f8;
 
-  @include respond-below(large) {
-    margin-left: auto;
-    overflow-x: unset;
+  .layout-header {
+    max-height: 55px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    // min-width: 964px;
+    max-height: 66px;
+    background-color: #1a1a1c;
+  }
+  
+  .layout-main {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 70px;
+    box-sizing: border-box;    
+
+    .main {
+      overflow-x: auto;
+
+      @include respond-below(large) {
+        margin-left: auto;
+        overflow-x: unset;
+      }
+
+      @include respond-below(small) {
+        padding-bottom: 55px;
+      }
+
+      &.has-left {
+        margin-left: 286px;
+
+        @include respond-below(large) {
+          margin-left: auto;
+        }
+
+        @include respond-below(small) {
+          padding-top: 49px;
+        }
+      }
+    }
   }
 
-  @include respond-below(small) {
-    padding-bottom: 110px;
+  .layout-footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 20;
+    width: 100%;
+    // min-width: 964px;
+    padding: 5px 32px;
+    background-color: #1a1a1c;
+    box-sizing: border-box;
+
+    @include respond-below(small) {
+      min-width: 320px;
+      margin-top: -152px;
+      padding: 20px 16px 23px;
+    }
   }
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  z-index: 20;
-  width: 100%;
-  // min-width: 964px;
-  padding: 5px 32px;
-  background-color: #000;
-  box-sizing: border-box;
-
-  @include respond-below(small) {
-    min-width: 320px;
-    margin-top: -152px;
-    padding: 20px 16px 23px;
-  }
-}
 </style>
