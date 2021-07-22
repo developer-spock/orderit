@@ -1,6 +1,13 @@
 @charset "utf-8";
 
+/* color */
+$yellow: #FDD000;
+
+/* content */
 $content-heading-weight: 500;
 $content-heading-line-height: 1.5;
+
+/* button */
+$button-padding-horizontal: 2em;
 
 @import "~bulma/bulma.sass";

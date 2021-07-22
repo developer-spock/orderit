@@ -8,6 +8,7 @@
             <h6 class="label-text">쉽고 즐거운 IT세상,<br/>IT를 주문하다 '오더릿'</h6>
             <h4 class="headline">쉽고 즐거운 IT세상,<br/>IT를 주문하다 '오더릿'</h4>
             <h5 class="period">쉽고 즐거운 IT세상,<br/>IT를 주문하다 '오더릿'</h5>
+            <button class="button is-warning">시작하기</button>
           </div>
         </div>
 
