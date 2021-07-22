@@ -64,7 +64,7 @@ html, body {
       }
 
       @include respond-below(small) {
-        padding-bottom: 55px;
+        padding-bottom: 110px;
       }
 
       &.has-left {
