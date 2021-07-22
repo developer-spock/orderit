@@ -35,7 +35,7 @@ html, body {
 .layout {
   position: relative;
   min-height: 100%;
-  background-color: #f7f8f8;
+  // background-color: #f7f8f8;
 
   .layout-header {
     max-height: 55px;
