@@ -291,7 +291,7 @@ export default {
 <style lang="scss" scope>
 svg {
   width: 100%;
-  height: 300px;
+  height: 400px;
 
   .st0{fill:#FDD000;}
   .st1{fill:#007FC7;}
@@ -299,8 +299,13 @@ svg {
 }
 
 .main-header {
+  background: url('~@/assets/images/background_image2.jpg') no-repeat right 60%;
+  //background: url('~@/assets/images/background_image1.jpg') no-repeat fixed 50% 50%/50% 50%;
+
   @include respond-below(small) {
     padding-top: 50px;
+    background-position: center top;
+    background-size: auto 100%;
   }
 
   .content h1, h2, h3, h4, h5, h6 {
