@@ -18,10 +18,10 @@
   - development environment
   - Install [git v2.34.1-64bit](https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-64-bit.exe)
   - Install [node-v12.16.2-x64](https://nodejs.org/dist/v12.16.2/node-v12.16.2-x64.msi)
-  - Install [python-3.8.0-arm64](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)
-  - Install [SQL2019-SSEI-Dev](https://go.microsoft.com/fwlink/?linkid=866662)
-  - Install [SSMS-Setup-KOR](https://aka.ms/ssmsfullsetup)
-  - Install [vs_buildtools](https://aka.ms/vs/16/release/vs_buildtools.exe)
+  - Install [python-3.8.0-arm64](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe) - "Disable path length limit" 선택
+  - Install [SQL2019-SSEI-Dev](https://go.microsoft.com/fwlink/?linkid=866662) - 기본
+  - Install [SSMS-Setup-KOR](https://aka.ms/ssmsfullsetup) - SQL2019-SSEI-Dev설치 완료 시 진행
+  - Install [vs_buildtools](https://aka.ms/vs/16/release/vs_buildtools.exe) - .Net 데스크톱 빌드 도구 설치, 시작
   - Install [VSCode](https://code.visualstudio.com/)
   
   - front-end
